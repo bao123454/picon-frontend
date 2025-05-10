@@ -224,10 +224,10 @@ const RecruitmentPage = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Về [Tên Công Ty Của Bạn]</h2>
             <p className="text-slate-700 leading-relaxed text-lg md:text-xl space-y-4">
               <span>
-                Chào mừng bạn đến với [Tên Công Ty Của Bạn]! Chúng tôi tự hào là [Mô tả ngắn gọn, ấn tượng về công ty, ví dụ: "một trong những đơn vị tiên phong trong lĩnh vực..."]. Sứ mệnh của chúng tôi là [Nêu sứ mệnh một cách truyền cảm hứng, ví dụ: "mang đến những giải pháp đột phá, nâng tầm cuộc sống..."].
+                Chào mừng bạn đến với Picons ! Chúng tôi tự hào là một trong những đơn vị tiên phong trong lĩnh vực. Sứ mệnh của chúng tôi là ví dụ: "mang đến những giải pháp đột phá, nâng tầm cuộc sống.
               </span>
               <span>
-                Tại đây, chúng tôi xây dựng một môi trường làm việc [Nêu 3-4 đặc điểm nổi bật của môi trường làm việc, ví dụ: "năng động, sáng tạo, tôn trọng sự khác biệt và khuyến khích phát triển bản thân"]. Chúng tôi tin rằng con người là tài sản quý giá nhất và là yếu tố then chốt cho mọi thành công.
+                Tại đây, chúng tôi xây dựng một môi trường làm việc năng động, sáng tạo, tôn trọng sự khác biệt và khuyến khích phát triển bản thân. Chúng tôi tin rằng con người là tài sản quý giá nhất và là yếu tố then chốt cho mọi thành công.
               </span>
             </p>
             {/* ĐÃ XÓA LINK "TÌM HIỂU THÊM" */}
