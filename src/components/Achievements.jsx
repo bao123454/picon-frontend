@@ -16,8 +16,7 @@ const Achievements = () => {
             cho các Công trình nhà máy & xí nghiệp.
           </h2>
           <p className="text-gray-600 mt-4 max-w-2xl">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+           Với kinh nghiệm nhiều năm trong lĩnh vực thiết kế, lắp đặt và xây dựng các công trình công nghiệp, chúng tôi tự hào mang đến cho khách hàng những giải pháp tối ưu, an toàn và hiệu quả. Đội ngũ kỹ sư, chuyên gia của chúng tôi luôn sẵn sàng tư vấn và đồng hành cùng quý khách hàng trong từng giai đoạn, từ lên ý tưởng, thiết kế chi tiết cho đến thi công, lắp đặt hoàn thiện. Chúng tôi cam kết đáp ứng đầy đủ các tiêu chuẩn kỹ thuật, đảm bảo tiến độ thi công và tối ưu chi phí đầu tư cho các dự án nhà máy, xí nghiệp quy mô lớn nhỏ khác nhau
           </p>
         </div>
 
