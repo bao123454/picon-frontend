@@ -44,8 +44,8 @@ const Navbar = () => {
 
               <Link to='/tin-tuc' className={getLinkClass("/tin-tuc")}>Tin Tức</Link>
               <Link to='/du-an' className={getLinkClass("/du-an")}>Dự Án</Link>
-              <Link to='/lien-he' className={getLinkClass("/lien-he")}>Liên hệ</Link>
-              <Link to='/tuyen-dung' className={getLinkClass("/tuyen-dung")}>Tuyển dụng</Link>
+              <Link to='/lien-he' className={getLinkClass("/lien-he")}>Liên Hệ</Link>
+              <Link to='/tuyen-dung' className={getLinkClass("/tuyen-dung")}>Tuyển Dụng</Link>
             </div>
             <div className="">
               <button onClick={() => setIsOpen(!isOpen)}>
