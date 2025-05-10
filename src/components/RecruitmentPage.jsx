@@ -221,7 +221,7 @@ const RecruitmentPage = () => {
         <section className="bg-white p-8 md:p-12 rounded-xl shadow-xl">
           <div className="max-w-4xl mx-auto text-center">
             <Building2 size={48} className="mx-auto mb-6 text-indigo-600" />
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Về [Tên Công Ty Của Bạn]</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Về Picons</h2>
             <p className="text-slate-700 leading-relaxed text-lg md:text-xl space-y-4">
               <span>
                 Chào mừng bạn đến với Picons ! Chúng tôi tự hào là một trong những đơn vị tiên phong trong lĩnh vực. Sứ mệnh của chúng tôi là ví dụ: "mang đến những giải pháp đột phá, nâng tầm cuộc sống.
