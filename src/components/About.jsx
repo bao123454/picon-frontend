@@ -3,6 +3,7 @@ import img1 from "../assets/home-image-1.jpg";
 import StaffCarousel from "./StaffCarousel";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { PhoneCall } from "lucide-react";
 
 const About = () => {
     const { hash } = useLocation();
@@ -13,17 +14,25 @@ const About = () => {
             if (element) {
               element.scrollIntoView({ behavior: "smooth", block: "start" });
             }
-          }, 100);
+          }, 100); // Add delay to ensure elements are loaded
         }
       }, [hash]);
   return (
     <section className="py-16 px-6 max-w-7xl mx-auto mt-16">
+       <a
+        href="tel:+84243377383"
+        className="fixed bottom-6 right-6 md:bottom-8 md:right-8 z-50 cursor-pointer bg-red-600 flex items-center text-white px-5 py-3 md:px-6 md:py-3 font-bold text-base md:text-lg rounded-full shadow-xl hover:bg-red-700 transition-all duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 transform hover:scale-105"
+        aria-label="Gọi để nhận tư vấn miễn phí"
+        title="Gọi để nhận tư vấn miễn phí"
+      >
+        <PhoneCall className="mr-2 h-5 w-5 md:h-6 md:w-6" />
+        <span className="hidden sm:inline">Nhận tư vấn miễn phí</span> {/* Ẩn chữ trên màn hình quá nhỏ nếu cần */}
+        <span className="sm:hidden">Gọi ngay</span> {/* Hiển thị chữ ngắn hơn trên màn hình nhỏ */}
+      </a>
       <section className="text-center mb-12" id="tong-quan">
-
-          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900">
           Tổng quan về công ty
         </h2>
-
         <p className="text-lg md:text-xl text-gray-600 mt-4 max-w-3xl mx-auto">
           Chào mừng đến với <span className="font-bold text-logo-gradient">Picons Construction</span>,
           đối tác đáng tin cậy của bạn trong việc xây dựng tương lai. Với hơn 20 năm kinh nghiệm,
